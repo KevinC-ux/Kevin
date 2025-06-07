@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom & Thrive</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header><!--header section-->
+    <nav class="navbar"> <!--navigation bar-->
+        
+        <ul class="sidebar"> 
+            <li onClick=hideSidebar()><a href="#" id="close-btn"><svg xmlns="http://www.w3.org/2000/svg" height="26px" width="26px" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg></a></li> <!--close icon to be styled-->
+            <li><a href="#home">HOME</a></li> <!--to style close btn-->
+            <li><a href="#about">ABOUT</a></li> 
+            <li><a href="#shop">GALLERY</a></li> 
+            <li><a href="#testimonials">TESTIMONIALS</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <a href="#" class="mobile-logo">Bloom &<span>Thrive.</span></a>
+
+        <ul class="mainbar"> 
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li> 
+                <li><a href="#shop">GALLERY</a></li> 
+                <li><a href="#" class="logo">Bloom &<span>Thrive.</span></a></li><!--logo section-->
+                <li><a href="#testimonials">TESTIMONIALS</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li onClick=showSidebar() class="hamburger"><a href="#"></a><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="26px" width="26px" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></li>
+        </ul>
+    </nav>    
+
+</header>   
+<!--header section end-->
+
+
+<section class="home" id="home"><!--home section-->
+    <div class="container"><!--container section-->
+        <div class="content"><!--content section-->
+            <h1>Embrace Afro-Elegance</h1>
+            <p>We sell flowers</p>
+            <a href="#shop" class="btn">Explore </a>
+        </div>
+    </div>
+</section>
+<!--home section end-->
+
+
+<!--about section-->
+<section class="about" id="about">
+    <div class="content"><!--about content-->
+        <h1>Rich fresh flowers</h1>
+        <h3>Embracing Africa</h3>
+        <p>Discover the beauty of African flowers with our exclusive collection
+of fresh blooms. Each flower is handpicked to ensure the highest quality and vibrant colors, bringing a touch of Africa's natural beauty to your home or event.</p>
+        </p>
+        <a href="#shop" class="btn">Shop Now</a>
+    </div>
+
+    <div class="image-moraa">   <!--image section-->
+        <img src="images/download.jpg" alt="African theme"> 
+    </div>
+</section>   
+<!--about section end-->
+
+
+<section class="testimonials" id="testimonials"><!--testimonials section starts here-->
+    <h1>Testimonials</h1>
+
+    <div class="box-container-two"><!--parent container-->
+
+        <div class="box1"><!--box 1, our comment-->
+            <h2>Our Customers Love Us!</h2>
+            <p>We take pride in providing our customers with the best shopping experience. Here are some of the wonderful things our customers have to say about us.
+            </p><br>
+            <i class="fa fa-arrow-left" id="prevArrow" aria-hidden="true"></i>
+            <i class="fa fa-arrow-right" id="nextArrow" aria-hidden="true"></i><!--arrow icons, to be styled-->
+        </div>
+        <div class="box2 testimonial-box"><!--box2, client one feedback-->
+            <!--quote icon-->
+            <p><i class="fa fa-quote-left" aria-hidden="true"></i>
+            The quality of the clothing is exceptional! I feel like a queen every time I wear them.
+            <i class="fa fa-quote-right" aria-hidden="true"></i></p><br>
+            <span class="stars"><!--stars-->
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+            </span>
+            <h3>Mary Janet</h3>
+        </div>
+        
+        <div class="box3 testimonial-box"><!--box 3, client two feedback-->
+            <p><i class="fa fa-quote-left" aria-hidden="true"></i>
+            I absolutely love the quality and design of the clothing. It's a true representation of African elegance!
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </p><br>
+            <span class="stars"><!--stars-->
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <h3>Jane Dakel</h3>
+        </div>
+        <div class="box4"><!--box 4-->
+            <h3>Our Partners</h3>
+            <span class="brands"><!--brands-->
+                <i class ="fab fa-instagram "></i>
+                <i class ="fas fa-hat-cowboy"></i>
+                <i class ="fas fa-leaf"></i>
+                <i class ="fas fa-gem"></i>
+                <i class ="fab fa-globe-africa"></i>
+                <i class ="fas fa-palette"></i>
+                <i class ="fab fa-pinterest"></i>
+            </span>
+        </div>
+    </div>
+</section><br><br><!--testimonials section end-->
+
+
+
+<section class="shop" id="shop"><!--shop section-->
+    <h1>Our Collections</h1>
+    <h2>Gallery</h2>
+    <p>Explore our curated collections that showcase the beauty and diversity of African fashion. Each piece is a testament to the artistry and craftsmanship of African designers.</p>
+
+    <div class="jewerlybox"> <!--box container, to add images in this div-->
+        <ul>  
+            <li><figure>
+                <img src="assets/moocosy roses.jpg" alt="jewerly" class="moocosy roses">
+                <figcaption class="caption">Safari collections</figcaption>
+            </figure></li>
+             <li><figure>
+                <img src="assets/red roses.jpg" alt="jewerly" class="red roses">
+                <figcaption class="caption">Tabasamu Accessories</figcaption>
+            </figure></li>
+             <li><figure>
+                <img src="assets/yellow roses.png" alt="jewerly" class="yellow roses">
+                <figcaption class="caption">Mwaki 2-piece</figcaption>
+            </figure></li>
+            
+            
+        </ul> 
+    </div>
+</section><!--shop section end-->
+
+
+ 
+<div class="faq" id="faq"><!--faq section-->
+   
+
+    <div class="content"><!--faq content-->
+        <h2>Need Help?</h2>
+        <h1>Frequently Asked Questions</h1>
+        <p>Check out our FAQ section for more information about our products, shipping, and more.</p>
+        <img src="images/customerdesk.jpg" alt="FAQ" class="faq-image">
+    </div>
+
+    <div class="container"><!--box container-->
+        <div class="accordion-item"><!--accordion1--> 
+            <button  onclick="toggleAccordion(1)" class="accordion-button" aria-expanded="false">
+                <span class="accordion-title">What is Afriluxe?</span>
+                <span id="icon-1"><i class="fa-solid fa-plus"></i></span>
+            </button>
+            <div class="accordion-content" id="content-1">
+                <p>Afriluxe is a luxury African fashion brand that celebrates the rich heritage and artistry of Africa through exquisite clothing and accessories.</p>
+            </div>
+        </div>  
+         
+         <div class="accordion-item"><!--accordion2--> 
+            <button  onclick="toggleAccordion(2)" class="accordion-button" aria-expanded="false">
+                <span class="accordion-title">What makes Afriluxe products unique?</span>
+                <span id="icon-2"><i class="fa-solid fa-plus"></i></span>
+            </button>
+            <div class="accordion-content" id="content-2">
+                <p>Our pieces blend modern style with African craftsmanship, focusing on quality, meaning and timeless beauty.</p>
+            </div>
+        </div>  
+
+         <div class="accordion-item"><!--accordion3--> 
+            <button  onclick="toggleAccordion(3)" class="accordion-button" aria-expanded="false">
+                <span class="accordion-title">Where are our products made?</span>
+                <span id="icon-3"><i class="fa-solid fa-plus"></i></span>
+            </button>
+            <div class="accordion-content" id="content-3">
+                <p>We work with skilled artisans and ethical partners across African and diaspora</p>
+            </div>
+        </div>  
+
+         <div class="accordion-item"><!--accordion4--> 
+            <button  onclick="toggleAccordion(4)" class="accordion-button" aria-expanded="false">
+                <span class="accordion-title">Do we offer worldwide shipping?</span>
+                <span id="icon-4"><i class="fa-solid fa-plus"></i></span>
+            </button>
+            <div class="accordion-content" id="content-4">
+                <p>Yes, we ship globally. Rates and delivery times are calculated  at checkout.</p>
+            </div>
+        </div>  
+
+        <div class="accordion-item"><!--accordion5--> 
+            <button  onclick="toggleAccordion(5)" class="accordion-button" aria-expanded="false">
+                <span class="accordion-title">Is Afriluxe eco-friendly?</span>
+                <span id="icon-5"><i class="fa-solid fa-plus"></i></span>
+            </button>
+            <div class="accordion-content" id="content-5">
+                <p>Yes, we prioritize sustainability through ethical sourcing and eco-conscious packaging.</p>
+            </div>
+        </div>  
+    </div>
+
+</div><!--faq section end-->
+
+<div class="contact" id="contact">
+    <h1>Get in touch</h1>
+    <h2>We're delighted to bring to us amazing sets of african themed collections</h2>
+    <p>Afriluxe collections are designed with care and love.</p>
+    <div class="container">
+        <div class="contactInfo">
+            <h3>Contact Details:</h3><br>
+           <p><i class="fa-solid fa-envelope">  </i><strong> Email:</strong> wambugurahab53@gmail.com</p><br>
+           <p><i class="fa-solid fa-phone"></i>  <strong>Phone:</strong> 0702382524</p><br>
+           <p><i class="fa-solid fa-location-pin"></i>  <strong>Address:</strong> 28 Norw Building, Nairobi, 00100 KEN.</p><br><br>
+
+            <div>
+                <ul class="socials">
+                    <li><i class="fa-brands fa-github"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-whatsapp"></i></li>
+                </ul>
+            </div><br><br>
+            <p>We typically respond within 12 hours</p>
+        </div>
+
+        <div class="contactForm">
+              <form id="contactForm" onsubmit="return sendMessage(event)">
+                    <h2>Send Message</h2>
+                    
+                    <div class="input">
+                        <div class="inputBox">
+                            <input type="email" id="email" value="Email" autocomplete="on" required="required">
+                        
+                            <textarea required="required">Type your message...</textarea>
+                            
+                            <input type="submit" value="Send message">
+                        </div>
+                    </div>
+                </form>
+                <p id="messageStatus" style="color: green; display: none;">Message Sent!</p>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div  class="footer-container">
+        <a href="#" class="logo">Afri<span>Luxe.</span></a><!--logo section-->
+        <nav class="footer-nav">
+        <ul class="nav-links">
+             <li><a href="#home">Home</a></li> <!--to style close btn-->
+             <li><a href="#about">About</a></li> 
+             <li><a href="#shop">Gallery</a></li> 
+             <li><a href="#testimonials">Testimonials</a></li>
+             <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="socials">
+             <li><a href="instagram">Instagram</a></li>
+             <li><a href="#pinterest">Pinterest</a></li>
+             <li><a href="#linkedin">Linkedin</a></li>
+        </ul>
+        <ul class="terms">
+             <li><a href="#tnc">Terms of Service</a></li>
+             <li><a href="#pp">Privacy Policy</a></li>
+        </ul>
+        </nav>
+
+        <p class="footer-copyright">&copy; 2025 Afriluxe. All rights reserved.</p>
+    </div>
+
+    <div class="support">
+        <p> Explore luxurious<br> African themed collections now! </p>
+        <a href="#shop" class="btn">Discover luxury</a>
+
+
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
